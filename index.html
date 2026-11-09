@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6c9e0">
+  <meta name="description" content="">
+  <title></title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <main id="love-page" aria-label="Lời nhắn">
+    <div id="message" aria-live="off"></div>
+
+    <div class="controls" aria-label="Điều khiển">
+      <button id="replay-button" class="control-button" type="button" aria-label="Phát lại lời nhắn" title="Phát lại lời nhắn">
+        <span aria-hidden="true">↻</span>
+      </button>
+      <button id="music-button" class="control-button" type="button" aria-label="Bật nhạc" title="Bật nhạc" aria-pressed="false">
+        <span aria-hidden="true">♫</span>
+      </button>
+    </div>
+
+    <audio id="background-music" preload="none" loop></audio>
+  </main>
+</body>
+</html>
